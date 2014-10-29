@@ -1,0 +1,67 @@
+{
+	"name": "nodeflow",
+	"version": "0.0.1",
+	"private": true,
+	"author": "Oleg Vivtash <vivtash.oleg@archer-soft.com>",
+    "main": "server.js",
+	"repository": {
+	  "type": "git",
+	  "url": "https://github.com/Format/nodeflow"
+	},
+  "scripts": {
+	    "start": "node server.js",
+	    "test": "mocha --require should --compilers coffee:coffee-script --colors"
+	}, 
+	"dependencies": {
+        "lodash": "2.4.x",
+        "config": "0.4.x",
+        "js-yaml": "2.1.x",
+        "pg": "2.11.x",
+		"express": "3.x",
+		"coffee-script": "1.6.x",
+		"jade": "0.30.x",
+		"eco": "1.1.x",
+        "passport": "0.2.x",
+        "passport-google-oauth": "0.1.x",
+        "connect-roles": "3.0.x",
+        "connect-redis": "1.4.7",
+		"connect-assets": "2.4.x",
+		"stylus": "0.32.x",
+		"nib": "0.9.x",
+		"markdown": "0.4.0",
+		"which": "1.0.5",
+		"wrench": "1.5.1",
+        "cheerio": "0.13.x",
+        "request": "2.33.x",
+        "coffee-script": "*",
+        "coffee-resque": "0.1.x",
+        "sequelize": "2.0.x",
+        "string": "1.8.x",
+        "xlsx": "0.5.x",
+        "xlsx-writer": "0.0.x",
+        "express-flash": "0.0.x"
+	},
+	"devDependencies": {
+        "mocha": "*",
+        "should": "*",
+        "supertest": "*",
+        "request": "*",
+        "supervisor": "*",
+        "puts": "*",
+        "ejs": "*"
+	}, 
+	"engines": {
+		"node": "~0.10.x",
+		"npm": "1.2.x"
+	},
+	"licenses": [
+	  {
+	    "type": "Proprietary",
+	    "url": "http://www.trustmetrics.com"
+	  }
+	],
+	"contributors": [
+	  "John Donovan <donovan@ioco.com>",
+	  "Robert Matsuoka <bob@mokamedianyc.com>"
+	]
+}
